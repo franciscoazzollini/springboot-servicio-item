@@ -31,7 +31,7 @@ public class Item {
 
     //metodo
 
-    public Double geTotal(){
+    public Double getTotal(){
         return producto.getPrecio()*cantidad.doubleValue();
     }
 
